@@ -1,4 +1,4 @@
 # iafrontend
 
-eu já clonei a main -> master
-falta levar para o servidor Azure
+<p>eu já clonei a main -> master
+<p></p>falta levar para o servidor Azure (Deploy)
