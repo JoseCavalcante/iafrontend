@@ -1,0 +1,31 @@
+{% extends "/templates/layout.html" %}
+{% block content %}
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col ms-2">
+                                <h1 class="card-title"><i class="bi bi-mic"></i> STT - Whispers</h1>
+                            </div>
+                        </div>      
+                        <div class="row mt-3 mb-3 me-1">
+                            <div class="col-9">
+                                <input type="file" id="audiofileID" name="audiofileName" class="form-control" accept="audio/*">
+                            </div>
+                            <div class="col-3 row justify-content-end">
+                                <button id="btnSubmit" type="button" class="btn btn-primary"><i class="bi bi-upload"></i> UpLoad Audio</button
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-3 me-2 ms-2">
+                            <div class="col">
+                                <h5 id="H5transcriptionID" class="card-body"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/assets/js/stt.js"></script>
+{% endblock %}
